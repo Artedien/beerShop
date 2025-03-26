@@ -1,0 +1,197 @@
+.contacts {
+    // .contacts__container
+    background: $black;
+    &__container {
+    }
+
+    // .contacts__inner
+
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 4rem 0;
+
+        gap: 4rem;
+        // justify-content: center;
+    }
+
+    // .contacts__information-box
+
+    &__information-box {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: $white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    // .contacts__tel-box
+
+    &__tel-box {
+    }
+
+    // .contacts__tel-link
+
+    &__tel-link {
+    }
+
+    // .contacts__adress-box
+
+    &__adress-box {
+    }
+
+    // .contacts__adress
+
+    &__adress {
+    }
+
+    // .contacts__mail-box
+
+    &__mail-box {
+    }
+
+    // .contacts__mail
+
+    &__mail {
+    }
+
+    // .contacts__map-wrapper
+
+    &__map-wrapper {
+        width: 60rem;
+        height: 45rem;
+        border-radius: 1.5rem;
+        overflow: hidden;
+    }
+
+    // .contacts__social-box
+
+    &__social-box {
+        grid-column:1/3;
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    // .contacts__social-fb
+
+    &__social-fb {
+    }
+
+    // .contacts__social-img
+
+    &__social-img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    // .contacts__social-img-box
+
+    &__social-img-box {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    // .contacts__social-insta
+
+    &__social-insta {
+    }
+
+    // .contacts__social-tg
+
+    &__social-tg {
+    }
+
+    // .contacts__schedule-box
+
+    &__schedule-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $black;
+        gap: 2rem;
+        border-radius: 1.5rem;
+        background:url(./assets/images/contacts-bg.jpg)
+    }
+
+    // .contacts__schedule-title-box
+
+    &__schedule-title-box {
+        color:#c3a27d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    // .contacts__schedule-title
+
+    &__schedule-title {
+        font-size: 3.6rem;
+        font-weight: 700;
+        letter-spacing: 0.25em;
+    }
+
+    // .contacts__schedule-disc
+
+    &__schedule-disc {
+        font-size: 1.6rem;
+    }
+
+    // .contacts__schedule-list
+
+    &__schedule-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 2rem;
+    }
+
+    // .contacts__schedule-item
+
+    &__schedule-item {
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $black;
+        padding-bottom: 0.5rem;
+        &:not(:last-of-type) {
+            margin: 0.5rem 0;
+        }
+    }
+
+    // .contacts__schedule-item-title
+
+    &__schedule-item-title {
+    }
+
+    // .contacts__schedule-item-time
+
+    &__schedule-item-time {
+    }
+
+    // .contacts__schedule-help-box
+
+    &__schedule-help-box {
+        display: flex;
+        font-size: 1.8rem;
+        margin: 0.5rem 2rem;
+        justify-content: space-between;
+    }
+
+    // .contacts__schedule-help-title
+
+    &__schedule-help-title {
+        color: #978f8d;
+    }
+
+    // .contacts__schedule-link
+
+    &__schedule-link {
+        font-weight: 700;
+    }
+}

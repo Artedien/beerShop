@@ -1,0 +1,137 @@
+.food {
+    margin: 11rem 0;
+    // .food__container
+
+    &__container {
+    }
+
+    // .food__inner
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    // .food__title-box
+
+    &__title-box {
+    }
+
+    // .food__title
+
+    &__title {
+        padding: 2rem 4rem;
+        background-color: $black;
+        color: $white;
+        font-size: 3.6rem;
+    }
+
+    // .food__list-box
+
+    &__list-box {
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    // .food__list-item
+
+    &__list-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        &:hover {
+            & .food__item-title-box {
+                scale: 1.02;
+            }
+            & .food__item-img-box {
+                scale: 1;
+            }
+        }
+    }
+
+    // .food__item-img-box
+
+    &__item-img-box {
+        display: flex;
+        width: 100%;
+        height: 35rem;
+        scale: 1.05;
+        transition: scale 0.3s;
+    }
+
+    // .food__list-img
+
+    &__list-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    // .food__item-title-box
+
+    &__item-title-box {
+        position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%);
+        display: flex;
+        transition: scale 0.3s;
+     
+    }
+
+    // .food__item-title
+
+    &__item-title {
+        font-size: 2.4rem;
+        color: $white;
+        text-align: center;
+        background-color: $black;
+        padding: 1rem 2rem 1.5rem;
+        transition: transform 0.5s;
+
+        // &:hover{
+        //     transform: scale(1.05);
+        //     &.food__list-img{
+        //         transform: scale(0.95);
+        //     }
+        // }
+    }
+
+    // .food__item1
+
+    &__item1 {
+        grid-row: span 2;
+        & .food__item-img-box {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // .food__item2
+
+    &__item2 {
+    }
+
+    // .food__item3
+
+    &__item3 {
+    }
+
+    // .food__item4
+
+    &__item4 {
+    }
+
+    // .food__item5
+
+    &__item5 {
+    }
+}
+.container {
+}

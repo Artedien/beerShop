@@ -1,0 +1,65 @@
+@import './mixins';
+
+// colors
+$white: #ffffff;
+$black: #000;
+$gray: #1A1B1F;
+$blue: #55ACEE;
+
+
+
+// body
+body {
+  font-family: 'Segue UI';
+  font-style: normal;
+  background-color: $white;
+  color: $black;
+  .lock & {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  min-height: 100vh;
+  opacity: 0;
+  background: $white;
+  transition: opacity 0.3s, z-index 0.3s;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  &.active {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+// main
+main {
+  flex-grow: 1;
+}
+
+@import './ui/ui';
+
+
+
+section {
+  padding:0;
+  @media (max-width: 48em) {
+  }
+  &._first {
+      padding: 5.7rem 0 9rem;
+      @media (max-width: 48em) {
+          padding: 2.6rem 0 10rem;
+      }
+  }
+}

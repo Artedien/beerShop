@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Segue UI';
+  src: url('./assets/fonts/SegueUI-Regular.woff2') format('woff2'),
+    url('./assets/fonts/SegueUI-Regular.woff') format('woff'),
+    url('./assets/fonts/SegueUI-Regular.eot') format('eot');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segue UI';
+  src: url('./assets/fonts/SegueUI-Semibold.woff2') format('woff2'),
+    url('./assets/fonts/SegueUI-Semibold.woff') format('woff'),
+    url('./assets/fonts/SegueUI-Semibold.eot') format('eot');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segue UI';
+  src: url('./assets/fonts/SegueUI-Bold.woff2') format('woff2'),
+  url('./assets/fonts/SegueUI-Bold.woff') format('woff'),
+  url('./assets/fonts/SegueUI-Bold.eot') format('eot');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segue UI';
+  src: url('./assets/fonts/SegueUI-Black.woff2') format('woff2'),
+    url('./assets/fonts/SegueUI-Black.woff') format('woff'),
+    url('./assets/fonts/SegueUI-Black.eot') format('eot');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segue UI';
+  src: url('./assets/fonts/SegueUI-Italic.woff2') format('woff2'),
+    url('./assets/fonts/SegueUI-Italic.woff') format('woff'),
+    url('./assets/fonts/SegueUI-Italic.eot') format('eot');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segue UI';
+  src: url('./assets/fonts/SegueUI-Bold-Italic.woff2') format('woff2'),
+    url('./assets/fonts/SegueUI-Bold-Italic.woff') format('woff'),
+    url('./assets/fonts/SegueUI-Bold-Italic.eot') format('eot');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
